@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.get(`${process.env.REACT_APP_API_URL}?city=${city}`);
+      const response = await axios.get(`https://realtime-weather-wg0f.onrender.com/api/weather?city=${city}`);
       setWeather(response.data);
     } catch (err) {
       console.error("Error fetching weather data:", err); 
