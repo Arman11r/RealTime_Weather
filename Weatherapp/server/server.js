@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: "https://your-vercel-project-name.vercel.app", // 👈 use your actual Vercel frontend URL
+  origin: "https://your-vercel-project-name.vercel.app",
   methods: ["GET", "POST"],
 };
 
