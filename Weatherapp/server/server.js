@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: "https://your-vercel-project-name.vercel.app",
+  origin: ["http://localhost:3000","https://real-time-weather-ndwd.vercel.app/"],
   methods: ["GET", "POST"],
 };
 
