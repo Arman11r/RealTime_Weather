@@ -1,6 +1,7 @@
 # Real-Time Weather Dashboard
 
 A full-stack MERN application that displays real-time weather information for any city using the OpenWeatherMap API made by Arman Ahmed.
+
 my github - https://github.com/Arman11r
 
 
